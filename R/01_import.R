@@ -26,11 +26,12 @@ sample <- readr::read_csv(here("data", "sample_001.csv"), skip = 3)
 #' tells us if a row contains a school name or not
 
 cref <- read_csv(here("data", "CREF.csv")) %>% 
-  select(DISTNAME, CAMPNAME)  # these are the only two columns we need
+  select(DISTNAME, 
+         Group = CAMPNAME)  # these are the only two columns we need
   
 disd <- cref %>% 
   filter(DISTNAME == "DALLAS ISD") %>%  # we only have DISD schools in our sample
-  mutate(school_name = CAMPNAME) %>%  # creating a duplicate column with school names
+  mutate(school_name = Group) %>%  # creating a duplicate column with school names
   select(-DISTNAME)  # we no longer need the district designation
 
 #' we won't need the cref file again in this example, so we can remove it
