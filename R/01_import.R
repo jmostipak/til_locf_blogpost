@@ -5,6 +5,7 @@
 
 library(readr)
 library(dplyr)
+library(tidyr)
 library(here)
 
 #' we'll be bringing in two datasets for this example
