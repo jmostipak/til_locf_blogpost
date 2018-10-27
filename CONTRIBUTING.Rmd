@@ -4,5 +4,19 @@ author: "Jesse Mostipak"
 date: "10/27/2018"
 output: html_document
 ---
+**Welcome**  
+Welcome to the repo for my blogpost, [TIL: LOCF using fill()](https://www.jessemaegan.com/post/til-locf/)! At the end of the post I invited and encouraged folks to build out the repo in ways that would help them level-up their R and/or GitHub skills while participating in open source work!
 
+There aren't a lot of requirements for contributing to this project other than being kind to one another (and yourself!) as you progress on your learning journey. I'm *always* happy to answer questions you might have about contributing to this project - please feel free to open an issue to start the conversation!
 
+**Resources**  
+
+* Free books to help you get started with R:
+    + [Modern Dive]()
+    + [R for Data Science]()
+
+* A fantastic resource for getting started with R and GitHub: 
+    + [Happy Git with R]()
+
+**Thank you thank you thank you!**
+To past contributors and future contributors - I hope this provided you with an opportunity to stretch your skills a little bit! 
