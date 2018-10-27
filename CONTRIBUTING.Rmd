@@ -1,0 +1,8 @@
+---
+title: "CONTRIBUTING"
+author: "Jesse Mostipak"
+date: "10/27/2018"
+output: html_document
+---
+
+
